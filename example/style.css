@@ -1,0 +1,46 @@
+
+body{
+    background-color: #0e1c37 !important;
+}
+header{    
+    background-color: white;
+}
+.navgray{
+    background-color: rgb(177, 177, 177) !important;
+}
+.section1{
+    background-color: #1b3360;
+    color: white !important;
+}
+.section2{
+    background-color: #dddddd;
+    color: rgb(37, 37, 37) !important;
+}
+.logo{
+    height: 65px;
+    width:135px;
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.imgmain{
+    width: 100%;
+}
+.titular{
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:36px !important;
+}
+.p-interno{
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.t-img{
+    position:absolute;
+    padding: 8px;
+    background-color:white;
+    color: rgb(39, 39, 39);
+}
+.imground{
+    border-radius:40px;
+}
