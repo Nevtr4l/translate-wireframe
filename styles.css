@@ -38,10 +38,6 @@ body {
 
 .Header__options {
     display: flex;
-    top: -15px;
-    width: 100%;
-    z-index: 5;
-    position: relative;
 }
 
 .Search {
