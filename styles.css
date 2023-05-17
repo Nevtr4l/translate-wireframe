@@ -26,14 +26,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
     width: 20%;
 }
 
 .Header__search {
     margin-top: 0;
     max-width:inherit;
-    width: 50%;
+    width: 40%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .Search__textBox {
@@ -54,7 +57,7 @@ body {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 18px;
 }
 
 .Search__content img {
@@ -66,4 +69,16 @@ body {
 
 .Header__options {
     display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.Header__cart {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.Header__user {
+    padding-left: 1%;
+    padding-right: 1%;
 }
