@@ -66,11 +66,10 @@ body {
 }
 
 .Search__content input {
-    padding: 5px 40px 5px 8px;
     padding-right: 30px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    width: 85%;
+    width: 100%;
 }
 
 .Search__content img {
