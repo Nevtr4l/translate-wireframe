@@ -79,3 +79,8 @@ body {
 .Header__user {
     padding-left: 18%;
 }
+
+.nav-text {
+    font-family: Rubik;
+    padding-left: 15%;
+}
