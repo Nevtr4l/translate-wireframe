@@ -33,14 +33,10 @@ body {
 .Header__search {
     margin-top: 0;
     max-width:inherit;
-    width:40%;
+    width: 50%;
 }
 
-.Header__options {
-    display: flex;
-}
-
-.Search__textBox {
+.Search__content {
     color: #333;
     text-align: center;
     justify-content: center;
@@ -49,7 +45,12 @@ body {
     font-family: Rubik
 }
 
+.Header__options {
+    display: flex;
+}
+
 .Search__content input {
+    padding: 5px 40px 5px 8px;
     padding-right: 30px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
