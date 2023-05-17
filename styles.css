@@ -40,27 +40,13 @@ body {
     display: flex;
 }
 
-.Search {
+.Search__textBox {
     color: #333;
-    margin-top: 10px;
-}
-
-.Search,.Search * {
-    box-sizing: border-box;
-    font-family: Rubik
-}
-
-.Search__content {
-    top: -15px;
-    width: 100%;
-    z-index: 5;
     text-align: center;
     justify-content: center;
-}
-
-.Search__textBox {
     display: flex;
     position: relative;
+    font-family: Rubik
 }
 
 .Search__content input {
