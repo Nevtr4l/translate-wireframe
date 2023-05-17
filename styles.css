@@ -58,6 +58,8 @@ body {
     top: -15px;
     width: 100%;
     z-index: 5;
+    text-align: center;
+    justify-content: center;
 }
 
 .Search__textBox {
@@ -70,6 +72,7 @@ body {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     width: 100%;
+    border-radius: 10px;
 }
 
 .Search__content img {
