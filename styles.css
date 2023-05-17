@@ -15,10 +15,6 @@ body {
     font-family: Rubik,sans-serif
 }
 
-.Header__wrapper {
-    margin: auto
-}
-
 .Header__content {
     display: flex;
     align-items: center;
