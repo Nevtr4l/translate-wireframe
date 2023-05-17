@@ -36,17 +36,20 @@ body {
     width: 50%;
 }
 
-.Search__content {
-    color: #333;
+.Search__textBox {
     text-align: center;
     justify-content: center;
+}
+
+.Search__content {
+    color: #333;
     display: flex;
     position: relative;
     font-family: Rubik
 }
 
 .Search__content input {
-    padding: 5px 40px 5px 8px;
+    padding: 10px 50px 10px 8px;
     padding-right: 30px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
