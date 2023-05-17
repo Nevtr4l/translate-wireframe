@@ -26,8 +26,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 20px;
     width: 20%;
-    height: auto
 }
 
 .Header__search {
@@ -45,10 +45,6 @@ body {
     font-family: Rubik
 }
 
-.Header__options {
-    display: flex;
-}
-
 .Search__content input {
     padding: 5px 40px 5px 8px;
     padding-right: 30px;
@@ -63,4 +59,8 @@ body {
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
+}
+
+.Header__options {
+    display: flex;
 }
