@@ -5,7 +5,7 @@ body {
 .Header {
     position: relative;
     background: #ffffff;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     z-index: 11
 }
 
@@ -28,7 +28,7 @@ body {
 .Header__search {
     margin-top: 0;
     max-width:inherit;
-    width: 40%;
+    width: 60%;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -46,12 +46,16 @@ body {
 }
 
 .Search__content input {
-    padding: 10px 50px 10px 8px;
+    padding: 8px 30px 8px 16px;
     padding-right: 30px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     width: 100%;
     border-radius: 18px;
+}
+
+.Search__content input::placeholder {
+    font-size: 14px;
 }
 
 .Search__content img {
@@ -65,15 +69,13 @@ body {
     display: flex;
     margin-left: 1%;
     margin-right: 1%;
-    width: 40%;
+    width: 20%;
 }
 
 .Header__cart {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 15%;
 }
 
 .Header__user {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 18%;
 }
