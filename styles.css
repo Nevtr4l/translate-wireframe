@@ -57,9 +57,17 @@ body {
     position: relative;
 }
 
-.Search__input {
+.Search__content input {
     padding: 5px 40px 5px 8px;
+    padding-right: 30px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     width: 85%;
+}
+
+.Search__content img {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
 }
