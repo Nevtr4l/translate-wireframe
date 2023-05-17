@@ -22,7 +22,12 @@ body {
 }
 
 .Header__logo {
-    width:12%
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto
 }
 
 .Header__search {
