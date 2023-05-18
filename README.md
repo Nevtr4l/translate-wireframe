@@ -7,5 +7,6 @@ PARA ABRIR EL HTML EN CLASE SIN ERRORES:
 1. Procura que todos los archivos que descargaste estén dentro de una carpeta. Como se muestra en la imagen de abajo xP
 ![Ejemplo](https://github.com/Nevtr4l/translate-wireframe/assets/99375902/9d43b74d-a798-479d-bcac-13abc62529dc)
 
-2. Dale doble clic al archivo index.html y si no se abre automáticamente, elige un navegador como "Google Chrome" o "Microsoft Edge" y dales doble clic :)
+2. Dale doble clic al archivo index.html o simplemente index y si no se abre automáticamente, elige un navegador como "Google Chrome" o "Microsoft Edge" y dale doble clic para seleccionarlo :D
+3. Ojalá no te jalen 🦫
 
