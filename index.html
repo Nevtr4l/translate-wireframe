@@ -12,7 +12,7 @@
   <title>Eccomerce</title>
 </head>
 
-<body>
+<body style="margin-left: 20%; margin-right: 20%; border-left: 1px solid black; border-right: 1px solid black;">
   <!-- Encabezado: Logo, Barra buscador, Carrito y Perfil de Cuenta -->
   <header class="Header">
     <div class="Header__content">
@@ -40,51 +40,63 @@
     </div>
   </header>
   <!-- Barra de navegación: Categorías, Nav1, Nav2, Nav3, Nav4 -->
-  <nav style="border-bottom: 1px solid black; padding: 0;" class="navbar navbar-expand navbar-light">
-    <ul class="nav navbar-nav">
-      <li class="nav-item">
+  <nav style="width:100%; border-bottom: 1px solid black; padding: 0; margin-bottom: 40px"
+    class="navbar navbar-expand navbar-light">
+    <ul style="width:100%;" class="nav navbar-nav">
+      <li style="width:20%;" class="nav-item">
         <a style="font-size: 13px;" class="nav-link active" href="#" aria-current="page">
-          <span style="margin-right: 5px;" class="navbar-toggler-icon"></span>
+          <span style="margin-right: 1%;" class="navbar-toggler-icon"></span>
           Categorías
           <span class="visually-hidden">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a style="font-size: 13px; padding-left: 160px" class="nav-link" href="#">Lo más vendido</a>
+      <li style="width:15%; display:flex; align-items:center; justify-content:center; margin-left: 25%"
+        class="nav-item">
+        <a style="font-size: 13px;" class="nav-link" href="#">Lo más vendido</a>
       </li>
-      <li class="nav-item">
+      <li style="width:20%; display:flex; align-items:center; justify-content:center" class="nav-item">
         <a style="font-size: 13px;" class="nav-link" href="#">Últimas novedades</a>
       </li>
-      <li class="nav-item">
+      <li style="width:10%; display:flex; align-items:center; justify-content:center" class="nav-item">
         <a style="font-size: 13px;" class="nav-link" href="#">Descuentos</a>
       </li>
-      <li class="nav-item">
+      <li style="width:10%;  display:flex; align-items:center; justify-content:center" class="nav-item">
         <a style="font-size: 13px;" class="nav-link" href="#">Tiendas</a>
       </li>
     </ul>
   </nav>
   <!-- Menú carousel usando bootstrap js -->
-  <main style="border-bottom: 1px solid black;">
+  <main style="border-bottom: 1px solid black; border-top: 1px solid black;">
     <section>
-      <div id="carouselExampleIndicators" class="carousel slide">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        <button style="color: black;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
           data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <svg style="border-radius: 50%; background-color: #fff; border: 1px solid black; padding: 5px"
+            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left"
+            viewBox="0 0 18 16">
+            <path fill-rule="evenodd"
+              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+          </svg>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        <button style="color: black;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
           data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <svg style="border-radius: 50%; background-color: #fff; border: 1px solid black; padding: 5px"
+            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 13 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
           <span class="visually-hidden">Next</span>
         </button>
-        <div style="padding: 40px;display:flex;align-items: center;justify-content: space-around;"
+        <div style="padding: 50px;display:flex;align-items: center;justify-content: space-around;"
           class="carousel-inner">
           <div class="carousel-item active">
             <img src="resources/no-image.png" class="d-block w-50" alt="">
