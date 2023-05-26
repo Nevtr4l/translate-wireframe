@@ -94,7 +94,6 @@ body {
 }
 
 .img-card-primary {
-  border: 1px solid black;
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 1%;
@@ -163,5 +162,10 @@ main {
 
 .ordenado a {
   font-size: 12px;
+  color: #fff
+}
+
+.ordenado h1 {
+  font-size: 14px;
   color: #fff
 }
